@@ -17,9 +17,23 @@ def BinarySearch(lst, search_term):
 
     return 'Not Found'
 
-
+##Binary Search Tests
 test_search_term = 4
 test_lst = [1,4,6,7,8,10,11,14]
 test_result = BinarySearch(test_lst, test_search_term)
+print(test_result)
 
+def LinearSearch(lst, search_term):
+
+    for i in range(len(lst)):
+
+        if lst[i] == search_term:
+            return i
+
+    return 'Not Found'
+
+##Linear Search Tests
+test_search_term = 4
+test_lst = [6,8,7,76,10,4,14]
+test_result = LinearSearch(test_lst, test_search_term)
 print(test_result)
