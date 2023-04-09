@@ -1,3 +1,5 @@
+##https://www.kaggle.com/datasets/usamabuttar/significant-earthquakes
+
 import pandas as pd
 
 earthquake_df = pd.read_csv('Earthquakes.csv')
